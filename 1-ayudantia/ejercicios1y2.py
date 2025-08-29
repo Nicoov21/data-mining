@@ -18,4 +18,3 @@ def dec_to_bin(s: int) -> str:
         numeroBinario = str(residuoDecimal) + numeroBinario #? Se concatena el restante al inicio del string
         s = s // 2 #? Se actualiza el valor del decimal por su divisíon entera por 2
     return numeroBinario #! Retorna el número en binario
-
