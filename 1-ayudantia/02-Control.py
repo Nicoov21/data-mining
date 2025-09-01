@@ -15,9 +15,8 @@ def clasificar_edad(edad: int) -> str:
 
 # (match/case) Crea 'tipo_dia(dia)' que reciba el nombre del día y devuelva 'laboral' o 'fin 
 # de semana'.
-
-def tipo_dia(dia: str) -> str:
-    match dia:
+def tipo_dia(dia: str):
+    match dia: 
         case 'Lunes' | 'Martes' | 'Miércoles' | 'Jueves' | 'Viernes': #! Si es día de semana
             return "Laboral" #? Retorna Laboral
         case 'Sábado' | 'Domingo': 
@@ -83,7 +82,7 @@ tareas = ["cargar datos", "limpiar", "entrenar", "evaluar"]
 # (List comprehension I) Genera los cuadrados de 1..N sólo para pares.
 n = 10 
 cuadradosPares = [i**2 for i in range(1,n+1) if i % 2 == 0]
-print(cuadradosPares)
+#print(cuadradosPares)
  
 # (List comprehension II) Aplana 'mat = [[1,2,3],[4,5],[6]]' en una sola lista '[1,2,3,4,5,6]'  
 mat = [[1,2,3],[4,5],[6]]
