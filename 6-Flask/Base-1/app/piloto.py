@@ -1,5 +1,6 @@
 # env -> python -m venv nombre
 # .\nombre\Scripts\activate  -> Windows
+#Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 # source nombre/bin/activate -> Linux/Mac
 # deactivate -> para salir del env
 #pip install flask
